@@ -8,7 +8,7 @@ from skimage.data import shepp_logan_phantom
 from skimage.transform import iradon, radon, resize
 
 SIZE = 256
-DELAY = 0.015
+DELAY = 0.01
 FILTERS = {
     "なし (Unfiltered)": None,
     "Ram-Lak (Ramp)": "ramp",
